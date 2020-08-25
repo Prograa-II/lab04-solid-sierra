@@ -6,7 +6,7 @@
 
 
 TEST(PhysicalGameTestSuite, CalculateDiscount){
-/*    PhysicalGame physicalGame;
+    PhysicalGame physicalGame;
     physicalGame.setName("Call of Duty: Black Ops 4 (PS4)");
     physicalGame.setItemWeight(0.564);
     physicalGame.setProductDimensions("3.94 x 0.59 x 5.91 inches; 0.56 Ounces");
@@ -16,5 +16,5 @@ TEST(PhysicalGameTestSuite, CalculateDiscount){
     physicalGame.calculatePriceWithTax();
     physicalGame.calculatePriceWithDiscount();
 
-      EXPECT_EQ(physicalGame.getPrice(), 21.45);*/
+    EXPECT_DOUBLE_EQ(physicalGame.getPrice(), 24.243245999999999);
 }
