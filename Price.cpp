@@ -23,8 +23,9 @@ void Price::setTax(double tax) {
     Price::tax = tax;
 }
 
-double Price::calculatePriceWithTax() const {
-    return 0;  /////////// CAlculos
+double Price::calculatePriceWithTax(){
+    price = price + (price*tax);
+    return price;
 }
 
 Price::Price(double price, double tax, double discount) : price(price), tax(tax), discount(discount) {}
@@ -37,8 +38,9 @@ void Price::setDiscount(double discount) {
     Price::discount = discount;
 }
 
-double Price::calculatePriceWithDiscount() const {
-    return 0; /////////// CAlculos
+double Price::calculatePriceWithDiscount(){
+    price = price - (price*discount);
+    return price;
 }
 
 

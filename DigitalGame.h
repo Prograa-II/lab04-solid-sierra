@@ -14,7 +14,7 @@ public:
 
     DigitalGame(double price, double tax, double discount, const std::string &name);
 
-    std::string toString()const override;
+    std::string toString() override;
 
     void save(const std::string &filename) override;
 };

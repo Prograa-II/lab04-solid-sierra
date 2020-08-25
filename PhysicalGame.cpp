@@ -23,7 +23,7 @@ void PhysicalGame::setProductDimensions(const std::string &productDimensions) {
     PhysicalGame::productDimensions = productDimensions;
 }
 
-std::string PhysicalGame::toString() const {
+std::string PhysicalGame::toString() {
     std::ostringstream output;
     output << std::fixed << std::setprecision(2);
     output << "Game Name: " << getName()
