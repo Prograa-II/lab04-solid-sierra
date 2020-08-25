@@ -24,9 +24,9 @@ public:
 
     void setTax(double tax);
 
-    double calculatePriceWithTax() const;
+    double calculatePriceWithTax();
 
-    double calculatePriceWithDiscount() const;
+    double calculatePriceWithDiscount();
 
     double getDiscount() const;
 

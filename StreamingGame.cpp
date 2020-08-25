@@ -3,7 +3,7 @@
 //
 
 #include "StreamingGame.h"
-std::string StreamingGame::toString() const {
+std::string StreamingGame::toString() {
     std::ostringstream output;
     output << std::fixed << std::setprecision(2);
     output << "Game Name: " << getName()

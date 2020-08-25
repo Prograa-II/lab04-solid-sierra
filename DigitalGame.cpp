@@ -4,7 +4,7 @@
 
 #include "DigitalGame.h"
 
-std::string DigitalGame::toString() const {
+std::string DigitalGame::toString()  {
     std::ostringstream output;
     output << std::fixed << std::setprecision(2);
     output << "Game Name: " << getName()

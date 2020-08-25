@@ -18,7 +18,7 @@ public:
     PhysicalGame(double price, double tax, double discount, const std::string &name, double itemWeight,
                  const std::string &productDimensions);
 
-    std::string toString()const override;
+    std::string toString() override;
 
     void save(const std::string &filename) override;
 
