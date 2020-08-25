@@ -27,3 +27,9 @@ The following laboratory is about trying to applying the rules of design SOLID p
 
 - You will need to generate a UML.
 - You will need to refactor the source code with a better approach to incorporate different design rules.
+
+# SOLUTION UML CLASS DIAGRAM SIERRA TEAM
+
+- The following class diagram were created using https://app.lucidchart.com/invitations/accept/13f62752-9a14-40c7-a36a-a5c83799b9ec
+
+![class-diagram](assets/LAB SOLID.png)
