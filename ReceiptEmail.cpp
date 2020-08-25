@@ -3,3 +3,14 @@
 //
 
 #include "ReceiptEmail.h"
+
+ReceiptEmail::ReceiptEmail(int rNum) : Receipt(rNum) {
+
+}
+
+string ReceiptEmail::toString(Game &ga) const {
+    std::ostringstream s;
+    s<<"EMAIL RECEIPT: "<<std::endl;
+    s<<ga.toString()<<std::endl;
+    return s.str();
+}

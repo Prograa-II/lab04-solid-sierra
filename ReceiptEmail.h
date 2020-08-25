@@ -4,10 +4,12 @@
 
 #ifndef LAB04_SOLID_RECEIPTEMAIL_H
 #define LAB04_SOLID_RECEIPTEMAIL_H
-
-
-class ReceiptEmail {
-
+#include "Receipt.h"
+class ReceiptEmail : public Receipt {
+public:
+    ReceiptEmail();
+    ReceiptEmail(int rNum);
+    string toString(Game &g1) const override;
 };
 
 
