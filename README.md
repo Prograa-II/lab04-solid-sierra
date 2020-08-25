@@ -32,4 +32,4 @@ The following laboratory is about trying to applying the rules of design SOLID p
 
 - The following class diagram were created using https://app.lucidchart.com/invitations/accept/13f62752-9a14-40c7-a36a-a5c83799b9ec
 
-![class-diagram](../assets/LAB%20SOLID.png)
+![class-diagram](assets/LAB%20SOLID.png)
