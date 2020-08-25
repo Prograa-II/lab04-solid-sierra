@@ -5,8 +5,17 @@
 #ifndef LAB04_SOLID_RECEIPT_H
 #define LAB04_SOLID_RECEIPT_H
 
+#include <iostream>
+using std::string;
 
 class Receipt {
+public:
+    Receipt();
+    Receipt(int rNumber );
+    virtual string toString() const =0;
+
+private:
+    int receiptNumber;
 
 };
 

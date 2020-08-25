@@ -3,3 +3,6 @@
 //
 
 #include "Receipt.h"
+Receipt::Receipt(int rNumber) : receiptNumber(rNumber){
+}
+Receipt::Receipt() {}
