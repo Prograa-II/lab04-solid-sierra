@@ -5,9 +5,12 @@
 #ifndef LAB04_SOLID_RECEIPTWEB_H
 #define LAB04_SOLID_RECEIPTWEB_H
 
-
-class ReceiptWeb {
-
+#include "Receipt.h"
+class ReceiptWeb : public Receipt {
+public:
+    ReceiptWeb();
+    ReceiptWeb(int rNum);
+    string toString(Game &g1) const override;
 };
 
 
