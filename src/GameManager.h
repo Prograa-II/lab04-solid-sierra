@@ -6,6 +6,8 @@
 #define LAB04_SOLID_GAMEMANAGER_H
 
 #include <iostream>
+#include <iomanip>
+#include <fstream>
 #include "Receipt.h"
 #include "InventoryManager.h"
 
