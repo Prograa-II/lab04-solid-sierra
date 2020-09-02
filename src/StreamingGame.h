@@ -9,7 +9,13 @@
 #include "Game.h"
 
 class StreamingGame: public Game, IReplaceable, InventoryManager{
+private:
+    std::string urlPath;
 public:
+    const std::string &getUrlPath() const;
+
+    void setUrlPath(const std::string &urlPath);
+
     StreamingGame();
 
     StreamingGame(double price, double tax, double discount, const std::string &name);

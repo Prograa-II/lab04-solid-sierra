@@ -4,6 +4,6 @@
 
 #include "IShippable.h"
 
-void IShippable::ship() {
-    std::cout << "Se envió el paquete " << std::endl;
+std::string IShippable::ship() {
+    return "Se envió el paquete ";
 }

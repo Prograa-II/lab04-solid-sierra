@@ -9,8 +9,14 @@
 #include "Game.h"
 
 class DigitalGame: public Game, IReplaceable, InventoryManager{
+private:
+    std::string filePath;
 public:
     DigitalGame();
+
+    const std::string &getFilePath() const;
+
+    void setFilePath(const std::string &filePath);
 
     DigitalGame(double price, double tax, double discount, const std::string &name);
 

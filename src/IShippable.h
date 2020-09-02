@@ -8,7 +8,7 @@
 
 class IShippable {
 public:
-    void ship();
+    std::string ship();
 };
 
 

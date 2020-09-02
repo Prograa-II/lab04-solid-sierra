@@ -7,6 +7,7 @@ std::string StreamingGame::toString() {
     std::ostringstream output;
     output << std::fixed << std::setprecision(2);
     output << "Game Name: " << getName()
+           << "Game URL: " << getUrlPath()
            << "\nPrice: $" << getPrice()
            << "\nPrice with Tax: $" << calculatePriceWithTax()
            << "\nPrice with Discount: $" << calculatePriceWithDiscount();
@@ -29,3 +30,11 @@ void StreamingGame::save(const std::string &filename) {
 StreamingGame::StreamingGame() {}
 
 StreamingGame::StreamingGame(double price, double tax, double discount, const std::string &name) : Game(price, tax, discount, name) {}
+
+const std::string &StreamingGame::getUrlPath() const {
+    return urlPath;
+}
+
+void StreamingGame::setUrlPath(const std::string &urlPath) {
+    StreamingGame::urlPath = urlPath;
+}
