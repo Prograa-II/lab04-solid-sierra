@@ -8,6 +8,7 @@
 #include <fstream>
 class InventoryManager {
 public:
+
    virtual void save(const std::string &filename) = 0;
 
    virtual ~InventoryManager()=0;

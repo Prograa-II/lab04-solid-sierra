@@ -4,6 +4,6 @@
 
 #include "IReplaceable.h"
 
-void IReplaceable::replace() {
-    std::cout << "Se Reemplazo el pedido " << std::endl;
+std::string IReplaceable::replace() {
+   return "Se Reemplazo el pedido ";
 }

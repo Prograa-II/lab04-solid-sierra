@@ -8,7 +8,7 @@
 
 class IReplaceable {
 public:
-    void replace();
+    std::string replace();
 };
 
 
