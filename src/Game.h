@@ -12,7 +12,6 @@ public:
 
     Game(double price, double tax, double discount, const std::string &name);
 
-
     const std::string &getName() const;
 
     void setName(const std::string &name);
