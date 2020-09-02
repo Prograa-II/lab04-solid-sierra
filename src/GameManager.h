@@ -13,7 +13,7 @@
 
 class GameManager {
 public:
-    std::string purchase(Receipt* receipt);
+    static std::string purchase(Receipt* receipt);
     static std::string read(const std::string &filename);
     static void write(Game* saveGame, const std::string &filename);
 };

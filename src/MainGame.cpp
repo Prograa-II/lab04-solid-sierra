@@ -5,6 +5,8 @@
 #include <iostream>
 #include "PhysicalGame.h"
 #include "GameManager.h"
+#include "Receipt.h"
+#include "ReceiptMail.h"
 
 int main() {
     PhysicalGame game;
@@ -15,6 +17,8 @@ int main() {
     game.setTax(0.13);
     game.setDiscount(0.13);
     std::cout << game.toString() << std::endl;
+    ReceiptMail *receipt;
+    //GameManager::purchase(receipt); Buscar manera de implementar
 
     GameManager::write(&game,"game.txt");
     GameManager::read("game.txt");
