@@ -51,3 +51,6 @@ void PhysicalGame::save(const std::string &filename) {
 PhysicalGame::PhysicalGame(double price, double tax, double discount, const std::string &name, double itemWeight,
                            const std::string &productDimensions) : Game(price, tax, discount, name), itemWeight(itemWeight),
                                                                    productDimensions(productDimensions) {}
+
+PhysicalGame::~PhysicalGame() {
+}

@@ -14,3 +14,6 @@ string ReceiptEmail::toString(Game &ga) const {
     s<<ga.toString()<<std::endl;
     return s.str();
 }
+
+ReceiptEmail::~ReceiptEmail() {
+}

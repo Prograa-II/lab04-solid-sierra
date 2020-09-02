@@ -9,9 +9,13 @@
 
 class ReceiptMail : public Receipt {
 public:
-ReceiptMail();
-ReceiptMail(int rNum);
-string toString(Game &g1) const override;
+    ReceiptMail();
+
+    ReceiptMail(int rNum);
+
+    string toString(Game &g1) const override;
+
+    ~ReceiptMail();
 };
 
 

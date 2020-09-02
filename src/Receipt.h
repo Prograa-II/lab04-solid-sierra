@@ -14,8 +14,12 @@ using std::string;
 class Receipt {
 public:
     Receipt();
+
     Receipt(int rNumber );
+
     virtual string toString(Game &ga) const =0;
+
+    ~Receipt();
 
 private:
     int receiptNumber;

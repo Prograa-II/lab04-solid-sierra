@@ -4,9 +4,13 @@
 
 #ifndef LAB04_SOLID_NOTIFICATIONEMAIL_H
 #define LAB04_SOLID_NOTIFICATIONEMAIL_H
+#include<sstream>
+#include "Notification.h"
 
+class NotificationEmail: public Notification{
 
-class NotificationEmail {
+private:
+     std::string sendNotification();
 
 };
 

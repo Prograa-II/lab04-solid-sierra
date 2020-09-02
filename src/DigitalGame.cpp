@@ -30,3 +30,6 @@ void DigitalGame::save(const std::string &filename) {
 DigitalGame::DigitalGame() {}
 
 DigitalGame::DigitalGame(double price, double tax, double discount, const std::string &name) : Game(price, tax, discount, name) {}
+
+DigitalGame::~DigitalGame() {
+}

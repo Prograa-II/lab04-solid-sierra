@@ -3,3 +3,7 @@
 //
 
 #include "NotificationEmail.h"
+
+std::string NotificationEmail::sendNotification() {
+    return "The notification has been sent by email";
+}

@@ -43,6 +43,9 @@ double Price::calculatePriceWithDiscount(){
     return price;
 }
 
+Price::~Price() {
+}
+
 
 
 

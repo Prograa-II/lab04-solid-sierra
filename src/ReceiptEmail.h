@@ -8,8 +8,12 @@
 class ReceiptEmail : public Receipt {
 public:
     ReceiptEmail();
+
     ReceiptEmail(int rNum);
+
     string toString(Game &g1) const override;
+
+    ~ReceiptEmail();
 };
 
 

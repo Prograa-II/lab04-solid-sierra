@@ -30,6 +30,7 @@ public:
 
     void setProductDimensions(const std::string &productDimensions);
 
+    ~PhysicalGame();
 
 };
 

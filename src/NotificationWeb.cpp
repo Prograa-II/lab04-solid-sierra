@@ -3,3 +3,7 @@
 //
 
 #include "NotificationWeb.h"
+
+std::string NotificationWeb::sendNotification() {
+    return "The notification has been sent via the web";
+}

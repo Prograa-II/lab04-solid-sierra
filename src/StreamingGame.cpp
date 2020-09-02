@@ -29,3 +29,6 @@ void StreamingGame::save(const std::string &filename) {
 StreamingGame::StreamingGame() {}
 
 StreamingGame::StreamingGame(double price, double tax, double discount, const std::string &name) : Game(price, tax, discount, name) {}
+
+StreamingGame::~StreamingGame() {
+}

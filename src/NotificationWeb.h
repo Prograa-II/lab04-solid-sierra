@@ -4,9 +4,12 @@
 
 #ifndef LAB04_SOLID_NOTIFICATIONWEB_H
 #define LAB04_SOLID_NOTIFICATIONWEB_H
+#include <sstream>
+#include "Notification.h"
 
-
-class NotificationWeb {
+class NotificationWeb: public Notification{
+public:
+    std::string sendNotification();
 
 };
 

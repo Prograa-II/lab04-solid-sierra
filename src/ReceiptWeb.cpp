@@ -13,3 +13,6 @@ string ReceiptWeb::toString(Game &ga) const {
     s<<ga.toString()<<std::endl;
     return s.str();
 }
+
+ReceiptWeb::~ReceiptWeb() {
+}

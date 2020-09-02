@@ -31,6 +31,8 @@ public:
     double getDiscount() const;
 
     void setDiscount(double discount);
+
+    ~Price();
 };
 
 

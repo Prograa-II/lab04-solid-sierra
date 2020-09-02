@@ -6,3 +6,6 @@
 Receipt::Receipt(int rNumber) : receiptNumber(rNumber){
 }
 Receipt::Receipt() {}
+
+Receipt::~Receipt() {
+}
