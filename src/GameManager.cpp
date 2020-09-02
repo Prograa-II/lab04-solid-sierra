@@ -32,5 +32,5 @@ std::string GameManager::read(const std::string &filename) {
 }
 
 std::string GameManager::purchase(Receipt *receiptSender) {
-    return receiptSender->rec();
+    return receiptSender->sendReceipt();
 }

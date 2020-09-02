@@ -14,6 +14,7 @@ public:
     string toString(Game &g1) const override;
 
     ~ReceiptEmail();
+    string sendReceipt() const override;
 };
 
 

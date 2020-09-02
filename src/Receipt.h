@@ -17,7 +17,8 @@ public:
 
     Receipt(int rNumber );
 
-    virtual string toString(Game &ga) const =0;
+    virtual std::string sendReceipt() const = 0;
+    virtual std::string toString(Game &ga) const = 0;
 
     ~Receipt();
 

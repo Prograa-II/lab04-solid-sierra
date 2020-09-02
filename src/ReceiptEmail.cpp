@@ -15,5 +15,9 @@ string ReceiptEmail::toString(Game &ga) const {
     return s.str();
 }
 
+string ReceiptEmail::sendReceipt() const {
+    return "Send Recipt by Email";
+}
+
 ReceiptEmail::~ReceiptEmail() {
 }
