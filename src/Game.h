@@ -19,6 +19,7 @@ public:
     virtual std::string toString() = 0;
 
     ~Game();
+
 private:
     std::string name;
 };

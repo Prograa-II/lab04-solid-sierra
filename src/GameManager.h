@@ -14,8 +14,8 @@
 class GameManager {
 public:
     std::string purchase(Receipt* receipt);
-    std::string read(const std::string &filename);
-    void write(InventoryManager* saveGame, const std::string &filename);
+    static std::string read(const std::string &filename);
+    static void write(Game* saveGame, const std::string &filename);
 };
 
 

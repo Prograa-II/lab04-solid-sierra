@@ -22,7 +22,7 @@ public:
 
     std::string toString()override;
 
-    void save(const std::string &filename) override;
+    std::string save() override;
 
     ~StreamingGame();
 };

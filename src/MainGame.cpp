@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "PhysicalGame.h"
+#include "GameManager.h"
 
 int main() {
     PhysicalGame game;
@@ -15,6 +16,7 @@ int main() {
     game.setDiscount(0.13);
     std::cout << game.toString() << std::endl;
 
-    game.save("game.txt");
+    GameManager::write(&game,"game.txt");
+    GameManager::read("game.txt");
     return 0;
 }

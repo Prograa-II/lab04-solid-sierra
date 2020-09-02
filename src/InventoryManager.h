@@ -9,9 +9,9 @@
 class InventoryManager {
 public:
 
-   virtual void save(const std::string &filename) = 0;
+   virtual std::string save() = 0;
 
-   virtual ~InventoryManager()=0;
+   virtual ~InventoryManager(){};
 };
 
 #endif //LAB04_SOLID_INVENTORYMANAGER_H

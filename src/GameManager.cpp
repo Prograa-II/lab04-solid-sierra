@@ -4,10 +4,10 @@
 
 #include "GameManager.h"
 
-void GameManager::write(InventoryManager *saveGame, const std::string &filename) {
+void GameManager::write(Game *saveGame, const std::string &filename) {
     std::ofstream file (filename, std::ofstream::out);
 
-    file << saveGame->save();
+    file << saveGame->toString();
 
     file.close();
 }

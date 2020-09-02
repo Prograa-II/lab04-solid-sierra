@@ -16,3 +16,7 @@ string ReceiptWeb::toString(Game &ga) const {
 
 ReceiptWeb::~ReceiptWeb() {
 }
+
+string ReceiptWeb::sendReceipt() const {
+    return "Send Recipt by Web";
+}

@@ -14,21 +14,16 @@ std::string StreamingGame::toString() {
     return output.str();
 }
 
-/**
- * Save the information into a text file
- * @param filename the name of the text file
- */
-void StreamingGame::save(const std::string &filename) {
-    std::ofstream ofs (filename, std::ofstream::out);
 
-    ofs << toString();
-
-    ofs.close();
+std::string StreamingGame::save() {
+    return toString();
 }
 
 StreamingGame::StreamingGame() {}
 
 StreamingGame::StreamingGame(double price, double tax, double discount, const std::string &name) : Game(price, tax, discount, name) {}
 
+
 StreamingGame::~StreamingGame() {
 }
+

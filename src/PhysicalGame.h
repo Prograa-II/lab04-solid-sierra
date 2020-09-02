@@ -20,7 +20,7 @@ public:
 
     std::string toString() override;
 
-    void save(const std::string &filename) override;
+    std::string save() override;
 
     double getItemWeight() const;
 
@@ -30,7 +30,7 @@ public:
 
     void setProductDimensions(const std::string &productDimensions);
 
-    ~PhysicalGame();
+   ~PhysicalGame();
 
 };
 

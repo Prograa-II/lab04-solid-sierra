@@ -36,21 +36,14 @@ std::string PhysicalGame::toString() {
     return output.str();
 }
 
-/**
- * Save the information into a text file
- * @param filename the name of the text file
- */
-void PhysicalGame::save(const std::string &filename) {
-    std::ofstream ofs (filename, std::ofstream::out);
 
-    ofs << toString();
-
-    ofs.close();
+std::string PhysicalGame::save() {
+    return toString();
 }
 
 PhysicalGame::PhysicalGame(double price, double tax, double discount, const std::string &name, double itemWeight,
                            const std::string &productDimensions) : Game(price, tax, discount, name), itemWeight(itemWeight),
                                                                    productDimensions(productDimensions) {}
-
 PhysicalGame::~PhysicalGame() {
 }
+
